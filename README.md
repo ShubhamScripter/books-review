@@ -95,8 +95,7 @@ createdAt: Date – when the review was posted.
 
 ##  ER DIAGRAM
 User (1) ────< (Many) Review >──── (1) Book
+
 One User can write many Reviews.
-
 One Book can have many Reviews.
-
 Each Review is linked to both a User and a Book.
